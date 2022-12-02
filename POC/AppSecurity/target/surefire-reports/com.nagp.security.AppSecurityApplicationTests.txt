@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.nagp.security.AppSecurityApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.216 s <<< FAILURE! - in com.nagp.security.AppSecurityApplicationTests
+com.nagp.security.AppSecurityApplicationTests  Time elapsed: 0.214 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/abhishekkashyap/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/AppSecurity/target/test-classes/com/nagp/security/AppSecurityApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [/Users/abhishekkashyap/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/AppSecurity/target/test-classes/com/nagp/security/AppSecurityApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [/Users/abhishekkashyap/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/AppSecurity/target/test-classes/com/nagp/security/AppSecurityApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
